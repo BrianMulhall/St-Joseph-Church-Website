@@ -1,17 +1,121 @@
 <template>
-
-<div></div>
-
+  <div class="row">
+    <h1>Basic Christian Living Series</h1>
+    <p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/-XJLzoIm754"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </p>
+    <p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/4avWKUxCYVY"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </p>
+    <p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/h_xdseZDDG0"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </p>
+    <p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/zMgwXqk4Sy4"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </p>
+    <p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/lLDRCIgsmTg"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </p>
+    <p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/yXSCtHYrn_8"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </p>
+    <p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/cZzYrcDvwoQ"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </p>
+    <p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/eWSfkF9yuEk"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </p>
+    <p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/cwZMUOe2d-c"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </p>
+    <p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/dan8SH0yFfU"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </p>
+    <p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/yE_j8W258NQ"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </p>
+    <p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/JNtkNzrufDs"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </p>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'BCLS',
-  props: {
-  }
-}
+  name: "BCLS",
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
