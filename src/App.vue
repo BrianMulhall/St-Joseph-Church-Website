@@ -38,6 +38,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
+              <li class="nav-item" ><router-link class="nav-link" to="/history"> History </router-link></li>
               <li class="nav-item">
                 <a
                   class="nav-link"
@@ -74,7 +75,7 @@
                   <li>
                     <router-link to="/schedules"> Schedules </router-link>
                   </li>
-                  <li><router-link to="/history"> History </router-link></li>
+                  
                   <li>
                     <router-link to="/directions">
                       Driving Directions
