@@ -1,6 +1,6 @@
 <template>
   <body>
-    <div id="doc2" class="container">
+    <div id="main-body" class="container">
       <div class="row">
         <img
           src=".\assets\images\sjheader.jpg"
@@ -38,7 +38,11 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-              <li class="nav-item" ><router-link class="nav-link" to="/history"> History </router-link></li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/history">
+                  History
+                </router-link>
+              </li>
               <li class="nav-item">
                 <a
                   class="nav-link"
@@ -47,7 +51,9 @@
                 >
               </li>
               <li class="nav-item">
-                <a  class="nav-link" href="/assets/pdfs/calendar.pdf">Church Calendar</a>
+                <a class="nav-link" href="/assets/pdfs/calendar.pdf"
+                  >Church Calendar</a
+                >
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -61,23 +67,23 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <router-link to="/contact">
+                    <router-link class="dropdown-item" to="/contact">
                       Staff and Contact Information
                     </router-link>
                   </li>
-                  <li><router-link to="/homily"> Homily </router-link></li>
+                  <li><router-link class="dropdown-item" to="/homily"> Homily </router-link></li>
                   <li>
-                    <router-link to="/information">
+                    <router-link class="dropdown-item" to="/information">
                       Sacrament and Member Information
                     </router-link>
                   </li>
 
                   <li>
-                    <router-link to="/schedules"> Schedules </router-link>
+                    <router-link class="dropdown-item" to="/schedules"> Schedules </router-link>
                   </li>
-                  
+
                   <li>
-                    <router-link to="/directions">
+                    <router-link class="dropdown-item" to="/directions">
                       Driving Directions
                     </router-link>
                   </li>
@@ -96,28 +102,42 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <router-link to="/catholic-resources">
+                    <router-link class="dropdown-item" to="/catholic-resources">
                       Catholic Resources
                     </router-link>
                   </li>
                   <li>
-                    <a
+                    <a class="dropdown-item"
                       href="https://www.usccb.org/offices/new-american-bible/books-bible"
                     >
                       Daily Readings
                     </a>
                   </li>
                   <li>
-                    <a href="/assets/pdfs/ministry-catalog.pdf"
+                    <a class="dropdown-item" href="/assets/pdfs/ministry-catalog.pdf"
                       >Ministry Catalog</a
                     >
                   </li>
                   <li>
-                    <router-link to="/basic-christian-living-series">
+                    <router-link class="dropdown-item" to="/basic-christian-living-series">
                       Basic Christian Living Series
                     </router-link>
                   </li>
+                  <li>
+                    <a class="dropdown-item" href="https://www.diosav.org/childyouthprotection">
+                      Child and Youth Protection
+                    </a>
+                  </li>
                 </ul>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-primary" href="https://www.facebook.com/St-Joseph-Catholic-Church-Augusta-GA-171859041023/" >
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+</svg>
+
+         </a>
+               
               </li>
             </ul>
           </div>
@@ -158,13 +178,12 @@ footer {
 }
 
 nav {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-#doc2 {
+#main-body {
   margin: auto;
-  width: 67.89em;
   text-align: left;
   background: #ffffff;
   border-top: 2px solid #999;
@@ -188,6 +207,8 @@ body {
 }
 
 #office-hours {
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
 }
 </style>
