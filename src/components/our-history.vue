@@ -123,7 +123,7 @@
 
 <script>
 export default {
-  name: "History",
+  name: "our-history",
   props: {},
 };
 </script>

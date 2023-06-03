@@ -79,7 +79,7 @@
 
 <script>
 export default {
-  name: "Directions",
+  name: "getting-directions",
 };
 </script>
 

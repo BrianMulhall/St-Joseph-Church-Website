@@ -8,39 +8,39 @@ import App from "./App.vue";
 const routes = [
   {
     path: "/",
-    component: () => import("./components/Home.vue"),
+    component: () => import("./components/home-page.vue"),
   },
   {
     path: "/basic-christian-living-series",
-    component: () => import("./components/BCLS.vue"),
+    component: () => import("./components/basic-christian-living-series.vue"),
   },
   {
     path: "/contact",
-    component: () => import("./components/Contact.vue"),
+    component: () => import("./components/contact-information.vue"),
   },
   {
     path: "/directions",
-    component: () => import("./components/Directions.vue"),
+    component: () => import("./components/getting-directions.vue"),
   },
   {
     path: "/history",
-    component: () => import("./components/History.vue"),
+    component: () => import("./components/our-history.vue"),
   },
   {
     path: "/homily",
-    component: () => import("./components/Homily.vue"),
+    component: () => import("./components/weekly-homily.vue"),
   },
   {
     path: "/information",
-    component: () => import("./components/Information.vue"),
+    component: () => import("./components/get-information.vue"),
   },
   {
     path: "/schedules",
-    component: () => import("./components/Schedules.vue"),
+    component: () => import("./components/staff-schedules.vue"),
   },
   {
     path: "/catholic-resources",
-    component: () => import("./components/CatholicResources.vue"),
+    component: () => import("./components/catholic-resources.vue"),
   },
 ];
 

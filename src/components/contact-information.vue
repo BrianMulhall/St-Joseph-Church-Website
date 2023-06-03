@@ -1,6 +1,6 @@
 <template>
   <div id="row">
-    <h1>Contact Us</h1>
+    <h1>Staff</h1>
     <table class="table table-striped" width="100%" border="1">
       <tbody>
       <tr>
@@ -12,8 +12,8 @@
             <strong
               ><a href="mailto:mvanalstine@diosav.org">Rev. Mark Van Alstine,</a
               ><em>Pastor</em><br /> </strong
-            >Rev. Juan Carlos Castillo Mayorga, <em>Parochial Vicar </em><br />
-            Rev. Sooho Lee, <em>Parochial Vicar</em>
+            >Rev. Christopher Awiliba <em>(Parochial Vicar)</em><br />
+
           </p>
         </td>
       </tr>
@@ -47,48 +47,22 @@
           <p><b>Ms. Catherine A. Kennedy</b></p>
         </td>
       </tr>
-      <tr >
-        <td width="42%" valign="top" bordercolor="#999999" >
-          <p><b>Church Secretary</b></p>
+
+      <tr>
+        <td width="42%" valign="top" bordercolor="#999999">
+          <p><b>Director of Religious Education</b></p>
         </td>
         <td width="58%" valign="top" bordercolor="#999999" >
-          <p>&nbsp;</p>
-        </td>
-      </tr>
-      <tr >
-        <td width="42%" valign="top" bordercolor="#999999" >
-          <p><b>Stewardship Coordinator</b></p>
-        </td>
-        <td width="58%" valign="top" bordercolor="#999999">
-          <p><b>Mrs. Janice Mousseau </b></p>
+          <p><strong></strong><br /></p>
         </td>
       </tr>
       <tr>
         <td width="42%" valign="top" bordercolor="#999999">
-          <p><b>Coordinator of Religious Education</b></p>
+          <p><b>Director of Music</b></p>
+          
         </td>
         <td width="58%" valign="top" bordercolor="#999999" >
-          <p><strong>Mrs. Annette Eyrich</strong><br /></p>
-        </td>
-      </tr>
-      <tr>
-        <td width="42%" valign="top" bordercolor="#999999">
-          <p><b>Choir Director</b></p>
-          <p><strong>Gospel Choir Director</strong></p>
-          <p><strong>Hispanic Choir Director</strong></p>
-        </td>
-        <td width="58%" valign="top" bordercolor="#999999" >
-          <p><b>Mr. Dan Funsch</b></p>
-          <p><strong>Mr. Joseph Edwards</strong></p>
-          <p><strong>Ms. Sonia Rivera</strong></p>
-        </td>
-      </tr>
-      <tr>
-        <td width="42%" valign="top" bordercolor="#999999" >
-          <p><b>Organist</b></p>
-        </td>
-        <td width="58%" valign="top" bordercolor="#999999" >
-          <p><strong>Mr. Stephen Alger</strong></p>
+          <p><b>Mr. Stephen Alger</b></p>
         </td>
       </tr>
       </tbody>
@@ -192,7 +166,7 @@
 
 <script>
 export default {
-  name: "Contact",
+  name: "contact-information",
   props: {},
 };
 </script>

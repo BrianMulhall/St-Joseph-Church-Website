@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'Homily',
+  name: 'weekly-homily',
   props: {
   }
 }

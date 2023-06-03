@@ -114,7 +114,7 @@
 
 <script>
 export default {
-  name: "BCLS",
+  name: "basic-christian-living-series",
 };
 </script>
 

@@ -11,9 +11,7 @@
       </div>
 
       <div id="office-hours" class="row">
-        <strong
-          >Office Hours Monday 1:00 p.m. - 4:30 p.m. and Tuesday-Friday 9:00
-          a.m. - 4:30 p.m. |
+        <strong>
           <a id="church-email" href="mailto:stjoesaug@aol.com"
             >stjoesaug@aol.com</a
           ></strong
@@ -38,11 +36,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <router-link class="nav-link" to="/history">
-                  History
-                </router-link>
-              </li>
+             
               <li class="nav-item">
                 <a
                   class="nav-link"
@@ -50,11 +44,7 @@
                   >Weekly Bulletin</a
                 >
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/assets/pdfs/calendar.pdf"
-                  >Church Calendar</a
-                >
-              </li>
+
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -63,7 +53,7 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  About St. Joseph Church
+                  Staff and Contacts
                 </a>
                 <ul class="dropdown-menu">
                   <li>
@@ -102,27 +92,35 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <router-link class="dropdown-item" to="/catholic-resources">
-                      Catholic Resources
-                    </router-link>
+                   <a class="dropdown-item" href="http://www.diosav.org"
+                      >Diocese of Savannah</a
+                    >
+                  </li>
+                  <li>
+                      <a class="dropdown-item" href="http://www.usccb.org"
+                        >Bishops Conference</a
+                      >
+                  </li>
+                  <li>
+                      <a class="dropdown-item" href="https://www.diosav.org/offices/vocations">Vocations</a>
+                  </li>
+                  <li>
+                      <a class="dropdown-item" href="http://www.aquinashigh.org"
+                        >Aquinas High School</a
+                      >
+                  </li>
+                  <li>
+                          <a class="dropdown-item" href="http://www.vatican.va/">Vatican</a>
                   </li>
                   <li>
                     <a class="dropdown-item"
-                      href="https://www.usccb.org/offices/new-american-bible/books-bible"
+                      href="https://bible.usccb.org/daily-bible-reading"
                     >
                       Daily Readings
                     </a>
                   </li>
-                  <li>
-                    <a class="dropdown-item" href="/assets/pdfs/ministry-catalog.pdf"
-                      >Ministry Catalog</a
-                    >
-                  </li>
-                  <li>
-                    <router-link class="dropdown-item" to="/basic-christian-living-series">
-                      Basic Christian Living Series
-                    </router-link>
-                  </li>
+                 
+                 
                   <li>
                     <a class="dropdown-item" href="https://www.diosav.org/childyouthprotection">
                       Child and Youth Protection
@@ -130,18 +128,22 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="btn btn-primary" href="https://www.facebook.com/St-Joseph-Catholic-Church-Augusta-GA-171859041023/" >
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-</svg>
-
-         </a>
-               
+               <li class="nav-item">
+                <router-link class="nav-link" to="/history">
+                  History
+                </router-link>
               </li>
+              
             </ul>
           </div>
         </div>
+        <button class="btn">
+                <a class="btn btn-primary" href="https://www.facebook.com/St-Joseph-Catholic-Church-Augusta-GA-171859041023/" >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg>
+                </a>
+              </button>
       </nav>
 
       <!-- Router outlet section -->
@@ -152,10 +154,7 @@
         <div class="text-center">
           <p text-align="center">
             &copy; Saint Joseph Catholic Church, Augusta, GA, All Rights
-            Reserved. | e-mail:
-            <a id="church-email" href="mailto:stjoesaug@aol.com"
-              >stjoesaug@aol.com</a
-            >
+            Reserved.
           </p>
         </div>
       </footer>
@@ -193,7 +192,6 @@ nav {
 }
 
 body {
-  background: url("./assets/images/bg_vstripe.gif") fixed;
   *font-size: small;
   *font: x-small;
   font-family: arial, helvetica, clean, sans-serif;

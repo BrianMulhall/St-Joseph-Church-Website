@@ -74,7 +74,7 @@
 
 <script>
 export default {
-  name: 'Information',
+  name: 'get-information',
   props: {
   }
 }
