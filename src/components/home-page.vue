@@ -48,28 +48,27 @@
             By giving online you help the parish more accurately forecast our
             finances and plan more strategically. Online Giving is a safe,
             secure and dependable means of income for the parish.
+  
+
+              <a type="button" class="btn btn-primary btn-lg" href="http://giving.parishsoft.com/dl/?uid=stj2607207">
+              Tithe Today
+              </a>
+
+
           </p>
-          <p id="tithe-button">
-            <a href="http://giving.parishsoft.com/dl/?uid=stj2607207">
-              <img
-                src="../assets/images/tithe.png"
-                width="150"
-                height="50"
-                alt="Tithe online today!"
-            /></a>
-          </p>
-          <h4>
+          <h2>
             <a class="catholic-appeal" href="https://diosav.org/baa"
-              >2023 Annual Catholic Appeal</a
-            >
-          </h4>
+              >2023 Annual Catholic Appeal</a>
+          </h2>
           <p>
-            The 2022
-            <a class="catholic-appeal" href="https://diosav.org/baa"
-              >Annual Catholic Appeal Website</a
-            >
-            please be sure to indicate St.
+
+
+             
+            Please be sure to indicate St.
             Joseph Parish, Augusta.
+             <a type="button" class="btn btn-primary btn-lg" href="https://diosav.org/baa"
+                          >Donate Today</a>
+
           </p>
           <h2>Our Vision</h2>
               <p id="bible-verse">

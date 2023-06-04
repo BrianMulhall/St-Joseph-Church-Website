@@ -13,7 +13,7 @@
       <div id="office-hours" class="row">
         <strong>
           <a id="church-email" href="mailto:stjoesaug@aol.com"
-            >stjoesaug@aol.com</a
+            >2607 Lumpkin Road Augusta, GA 30906 | Phone: (706) 798-1920 Fax: (706) 798-8594 | stjoesaug@aol.com</a
           ></strong
         >
       </div>
@@ -61,22 +61,9 @@
                       Staff and Contact Information
                     </router-link>
                   </li>
-                  <li><router-link class="dropdown-item" to="/homily"> Homily </router-link></li>
-                  <li>
-                    <router-link class="dropdown-item" to="/information">
-                      Sacrament and Member Information
-                    </router-link>
-                  </li>
 
-                  <li>
-                    <router-link class="dropdown-item" to="/schedules"> Schedules </router-link>
-                  </li>
 
-                  <li>
-                    <router-link class="dropdown-item" to="/directions">
-                      Driving Directions
-                    </router-link>
-                  </li>
+
                 </ul>
               </li>
 
