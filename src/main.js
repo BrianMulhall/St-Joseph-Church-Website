@@ -11,24 +11,12 @@ const routes = [
     component: () => import("./components/home-page.vue"),
   },
   {
-    path: "/basic-christian-living-series",
-    component: () => import("./components/basic-christian-living-series.vue"),
-  },
-  {
     path: "/contact",
     component: () => import("./components/contact-information.vue"),
   },
   {
-    path: "/directions",
-    component: () => import("./components/getting-directions.vue"),
-  },
-  {
     path: "/history",
     component: () => import("./components/our-history.vue"),
-  },
-  {
-    path: "/homily",
-    component: () => import("./components/weekly-homily.vue"),
   },
   {
     path: "/information",

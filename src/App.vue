@@ -11,9 +11,9 @@
       </div>
 
       <div id="office-hours" class="row">
-        <strong>
+        <strong><a class="contact-links" href="http://maps.google.com/?q=2607 Lumpkin Road Augusta, GA 30906">2607 Lumpkin Road Augusta, GA 30906</a> | Phone: <a class="contact-links" href="tel:+17067981920">(706) 798-1920</a> | Fax: <a class="contact-links" href="tel:+17067988594">(706) 798-8594</a> | 
           <a id="church-email" href="mailto:stjoesaug@aol.com"
-            >2607 Lumpkin Road Augusta, GA 30906 | Phone: (706) 798-1920 Fax: (706) 798-8594 | stjoesaug@aol.com</a
+            >stjoesaug@aol.com</a
           ></strong
         >
       </div>
@@ -195,5 +195,10 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
+}
+
+.contact-links {
+    color: #141619;
+    text-decoration: none;
 }
 </style>

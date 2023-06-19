@@ -1,13 +1,12 @@
 <template>
   <div class="row">
-    <div class="col-8">
+    <div class="col-md-8 col-xs-12" style= "margin-bottom: 20px;">
     <div class="card">
       <div class="card-body">
       <h2 class="card-title">Office Hours</h2>
           <p>Monday 1:00 p.m. - 4:30 p.m.</p>
           <p>Tuesday-Friday 9:00 a.m. - 4:30 p.m.</p> 
       </div>
-
     </div>
       <div class="card">
         <div class="card-body">
@@ -22,7 +21,6 @@
           <p>Holy Days: 7:00 a.m. &amp; 7:00 p.m.</p>
         </div>
       </div>
-
       <div class="card">
         <div class="card-body">
           <h2 class="card-title">Penance/Reconciliation</h2>
@@ -33,51 +31,47 @@
           </p>
         </div>
       </div>
-
-
-
-
-
     </div>
-
-    <div class="col-4">
+    <div class="col-md-4 col-xs-12">
       <div id="online-giving" class="card">
         <div class="card-body">
-          <h2 class="card-title">Online Giving</h2>
-          <p>
-            By giving online you help the parish more accurately forecast our
-            finances and plan more strategically. Online Giving is a safe,
-            secure and dependable means of income for the parish.
-  
-
-              <a type="button" class="btn btn-primary btn-lg" href="http://giving.parishsoft.com/dl/?uid=stj2607207">
+         
+           <div class="row">
+            <h2 class="card-title">Online Giving</h2>
+              By giving online you help the parish more accurately forecast our
+              finances and plan more strategically. Online Giving is a safe,
+              secure and dependable means of income for the parish.
+            </div>
+            <div class="row">
+              <a type="button" class="donation-button btn btn-primary btn-lg" href="http://giving.parishsoft.com/dl/?uid=stj2607207">
               Tithe Today
               </a>
-
-
-          </p>
-          <h2>
-            <a class="catholic-appeal" href="https://diosav.org/baa"
-              >2023 Annual Catholic Appeal</a>
-          </h2>
-          <p>
-
+            </div>
+         
+          <div class="row">
+            <h2>
+                        <a class="catholic-appeal" href="https://diosav.org/baa"
+                          >2023 Annual Catholic Appeal</a>
+                      </h2>
 
              
             Please be sure to indicate St.
             Joseph Parish, Augusta.
-             <a type="button" class="btn btn-primary btn-lg" href="https://diosav.org/baa"
+            </div>
+            <div class="row">
+             <a type="button" class="donation-button btn btn-primary btn-lg" href="https://diosav.org/baa"
                           >Donate Today</a>
 
-          </p>
-          <h2>Our Vision</h2>
+          </div>
+           <div class="row">
+            <h2>Our Vision</h2>
               <p id="bible-verse">
                 St. Joseph Catholic Church is a faith community
                 rooted in God's Word. We are formed in the truth of 
                 Jesus Christ and empowered by the Holy Spirit to reach
                 out to other's with the Father's unconditional love.
               </p>
-
+          </div>
         </div>
       </div>
     </div>
@@ -104,6 +98,12 @@ export default {
 .catholic-appeal {
   text-decoration: none;
   color: black;
+}
+
+.donation-button {
+    width: 50%;
+    margin: auto;
+
 }
 
 #tithe-button {
