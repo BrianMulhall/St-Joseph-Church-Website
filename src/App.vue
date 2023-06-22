@@ -57,12 +57,20 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <router-link class="dropdown-item" to="/contact">
-                      Staff and Contact Information
+                    <router-link class="dropdown-item" to="/priests">
+                      Priests
                     </router-link>
                   </li>
-
-
+                  <li>
+                    <router-link class="dropdown-item" to="/deacons">
+                      Deacons
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link class="dropdown-item" to="/staff">
+                      Staff
+                    </router-link>
+                  </li>
 
                 </ul>
               </li>
@@ -188,7 +196,7 @@ body {
 
 #church-email {
   text-decoration: none;
-  color: #333366;
+  color: black;
 }
 
 #office-hours {

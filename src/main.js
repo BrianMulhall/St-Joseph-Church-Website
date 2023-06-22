@@ -11,8 +11,16 @@ const routes = [
     component: () => import("./components/home-page.vue"),
   },
   {
-    path: "/contact",
-    component: () => import("./components/contact-information.vue"),
+    path: "/staff",
+    component: () => import("./components/our-staff.vue"),
+  },
+  {
+    path: "/priests",
+    component: () => import("./components/our-priests.vue"),
+  },
+  {
+    path: "/deacons",
+    component: () => import("./components/our-deacons.vue"),
   },
   {
     path: "/history",
