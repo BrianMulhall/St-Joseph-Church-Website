@@ -10,8 +10,8 @@
       </thead>
       <tbody>
         <tr>
-          <th scope="row">Emmeritus </th>
-          <td>Rev. Mr. Gregory L. Bernard</td>
+          <th scope="row"> </th>
+          <td>Rev. Mr. Gregory L. Bernard, Emmeritus</td>
           <td>deacongregb@yahoo.com</td>
         </tr>
         <tr>
@@ -23,6 +23,11 @@
           <th scope="row"></th>
           <td>Rev. Mr. Thomas Valois</td>
           <td>t.valois@yahoo.com</td>
+        </tr>
+        <tr>
+          <th scope="row"></th>
+          <td>Rev. Mr. Laurence McMaster</td>
+          <td>lomcmaster@hotmail.com</td>
         </tr>
       </tbody>
     </table>

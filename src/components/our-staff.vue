@@ -10,8 +10,8 @@
       <tbody>
         <tr>
           <th scope="row">Pastoral Assistant </th>
-          <td>Sister Isabelle Lohan, MFIC</td>
-          <td>isabellelohan@aol.com</td>
+          <td>Vacant</td>
+          <td></td>
         </tr>
         <tr>
           <th scope="row">Business Manager</th>
